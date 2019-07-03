@@ -1,4 +1,4 @@
-void Closeness_Centrality(vector<vector<int>> adj_matrix, int numOfver, int Src,long double &value )
+void Closeness_Centrality (vector<vector<int>> adj_matrix, int numOfver, int Src,long double &value )
 {
 	int* distance = new int[numOfver];
 	bool* ShortpassSet = new bool[numOfver];
